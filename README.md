@@ -34,3 +34,12 @@ python3 -m http.server 8788 --directory public
 ```
 
 ブラウザで http://127.0.0.1:8788 を開きます。
+
+## アプリ詳細ページ
+
+`public/apps/<アプリ名>/index.html` に1アプリ1ページです（現在は `knit2` のみ）。新しいアプリは `public/apps/knit2/` をコピーして中身を差し替えます。
+
+- スクリーンショット: `public/assets/knit2/ss-1.png` 〜 `ss-6.png` を同じファイル名で差し替え。枚数や説明文（`figcaption` と `alt`）を変える場合は、`index.html` の `gallery` 内を編集
+- 更新履歴: `index.html` の `history` に `<li>` を1件追加（新しいものを上に）
+- 使い方: `howto` のセクションを編集
+- 問い合わせフォームへのリンクは `/?app=Knit2#support` の形式で、対象アプリが自動で選択されます
