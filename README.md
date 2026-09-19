@@ -4,12 +4,11 @@ Cloudflare Pages で公開する KAZE Application のサポートサイトです
 
 ## 公開方法
 
-Cloudflare Dashboard で **Workers & Pages** → **Create application** → **Pages** → **Connect to Git** を選び、このリポジトリを連携します。
+Cloudflare Workers（静的アセット）で公開しています。設定は `wrangler.jsonc` にあり、`public/` の中身がそのまま配信されます。
 
-- Production branch: `main`
-- Framework preset: `None`
-- Build command: 空欄
-- Build output directory: `public`
+- 公開URL: https://kaze-application.kazeellegard.workers.dev/
+- Git連携: Cloudflare Dashboard の Workers & Pages → `kaze-application` → Settings → Builds
+- Build command: 空欄 / Deploy command: `npx wrangler deploy`
 
 ## 更新方法
 
