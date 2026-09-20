@@ -24,7 +24,7 @@ Cloudflare Workers（静的アセット）で公開しています。設定は `
 
 1. `class="app-card coming-soon"` を `class="app-card"` に変更
 2. `<span class="status">COMING SOON</span>` を App Store へのリンク（他カードの `text-link` と同形式）に置き換え
-3. アイコンを `public/assets/` に追加して `img` の参照先を差し替え（現在は仮のSVG）
+3. アイコンは設定済み（`public/assets/electrical-tools.png`）。差し替える場合は同名で置き換え
 4. お知らせに1件追加
 
 ## ローカル確認
