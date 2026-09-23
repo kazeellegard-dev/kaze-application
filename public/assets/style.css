@@ -39,3 +39,4 @@ h1,h2,h3,p { margin-top:0; }.hero h1 { margin-bottom:24px; font-size:clamp(1.9re
 .notice { max-width:var(--max); margin:18px auto 0; padding:0 28px; }.notice p { margin:0; padding:14px 18px; border-radius:12px; background:#fff7e0; border:1px solid #f0dca0; color:#5c4a12; font-size:.9rem; }.notice .inline-link { color:#7a5c00; font-weight:700; }
 .gallery.portrait figure { flex-basis:min(240px,62vw); }
 .nb { white-space:nowrap; }
+.badges.scenes { gap:10px; }.badges.scenes li { padding:9px 18px; background:#fff; border:1px solid var(--line); color:var(--ink); font-size:.9rem; font-weight:500; }
