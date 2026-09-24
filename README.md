@@ -30,7 +30,7 @@ python3 -m http.server 8788 --directory public
 
 `public/apps/<アプリ名>/index.html` に1アプリ1ページです（`knit2` / `knit` / `tap-and-match` / `electrical-tools`）。新しいアプリは `public/apps/knit2/` をコピーして中身を差し替えます。
 
-- スクリーンショット: `public/assets/<アプリ名>/` の画像を同じファイル名で差し替え（Knit2: `ss-1.png`〜`ss-6.png`、Knit: `iph-1.png`〜`iph-4.png`、Tap and Match: `iph-1.png`〜`iph-3.png`、電気設計便利ツール: `iph-1.png`〜`iph-5.png`）。枚数や説明文（`figcaption` と `alt`）を変える場合は、`index.html` の `gallery` 内を編集
+- スクリーンショット: `public/assets/<アプリ名>/` の画像を同じファイル名で差し替え（Knit2: `ss-1.png`〜`ss-6.png`、Knit: `iph-1.png`〜`iph-4.png`、Tap and Match: `iph-1.png`〜`iph-3.png`、電気設計便利ツール: `iph-1.png`〜`iph-4.png`）。枚数や説明文（`figcaption` と `alt`）を変える場合は、`index.html` の `gallery` 内を編集
 - 更新履歴: `index.html` の `history` に `<li>` を1件追加（新しいものを上に）
 - 使い方: `howto` のセクションを編集
 - 問い合わせフォームへのリンクは `/?app=Knit2#support` の形式で、対象アプリが自動で選択されます
