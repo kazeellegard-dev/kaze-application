@@ -42,3 +42,6 @@ h1,h2,h3,p { margin-top:0; }.hero h1 { margin-bottom:24px; font-size:clamp(1.9re
 .badges.scenes { gap:10px; }.badges.scenes li { padding:9px 18px; background:#fff; border:1px solid var(--line); color:var(--ink); font-size:.9rem; font-weight:500; }
 .policy-page section ul { margin:0 0 1em; padding-left:1.3em; color:#48546a; }.policy-page section li { margin-bottom:4px; }.policy-page .inline-link { color:var(--blue); text-decoration:underline; }
 .shot-label { margin:0 auto 12px; font-size:.95rem; letter-spacing:.04em; }.shot-label ~ .shot-label { margin-top:44px; }.gallery.ipad figure { flex-basis:min(380px,80vw); }
+
+.site-header .brand { margin-right:auto; }.lang-switch { margin-left:22px; padding:5px 13px; border:1px solid var(--line); border-radius:999px; background:#fff; color:#41506a; font-size:.8rem; font-weight:700; line-height:1.4; white-space:nowrap; }.lang-switch:hover { color:var(--blue); border-color:var(--blue); }
+@media (max-width:720px) { .menu-button { order:3; }.lang-switch { order:2; margin-left:0; margin-right:12px; } }
