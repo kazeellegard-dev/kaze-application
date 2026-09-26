@@ -45,3 +45,4 @@ h1,h2,h3,p { margin-top:0; }.hero h1 { margin-bottom:24px; font-size:clamp(1.9re
 
 .site-header .brand { margin-right:auto; }.lang-switch { margin-left:22px; padding:5px 13px; border:1px solid var(--line); border-radius:999px; background:#fff; color:#41506a; font-size:.8rem; font-weight:700; line-height:1.4; white-space:nowrap; }.lang-switch:hover { color:var(--blue); border-color:var(--blue); }
 @media (max-width:720px) { .menu-button { order:3; }.lang-switch { order:2; margin-left:0; margin-right:12px; } }
+.lang-banner { display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:6px 16px; padding:9px 20px; background:#eef1ff; border-bottom:1px solid var(--line); color:#33415c; font-size:.85rem; }.lang-banner a { color:var(--blue); font-weight:700; text-decoration:underline; }.lang-banner button { border:0; background:transparent; color:#5b6880; font:inherit; font-size:.8rem; cursor:pointer; text-decoration:underline; }
